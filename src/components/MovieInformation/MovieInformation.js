@@ -1,36 +1,20 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import {
   Modal,
   Typography,
-  Button,
-  ButtonGroup,
   Grid,
   Box,
   CircularProgress,
-  useMediaQuery,
   Rating,
 } from "@mui/material";
-import {
-  Movie as MovieIcon,
-  Theaters,
-  Language,
-  PlusOne,
-  Favorite,
-  FavoriteBorderOutlined,
-  Remove,
-  ArrowBackIcon,
-  ArrowBack,
-} from "@mui/icons-material";
 import { Link, useParams } from "react-router-dom";
-import axios from "axios";
 import {
-  useGetListQuery,
   useGetMovieQuery,
   useGetRecommendationsQuery,
 } from "../../services/TMDB";
 import "../global.css";
 import genreIcons from "../../assets/assets/genres";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { selectGenreOrCategory } from "../../features/createGenreOrCategory";
 import { MovieList } from "..";
 

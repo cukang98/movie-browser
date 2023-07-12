@@ -1,7 +1,7 @@
 import { CssBaseline } from "@mui/material";
 import { Routes, Route } from "react-router-dom";
 import { Movies, NavBar, MovieInformation, Actors } from "./";
-import React, { useRef } from "react";
+import React from "react";
 import "./global.css";
 
 function App() {

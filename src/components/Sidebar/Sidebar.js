@@ -10,8 +10,6 @@ import {
   Typography,
 } from "@mui/material";
 import { Link } from "react-router-dom";
-import { useTheme } from "@mui/material/styles";
-
 import { useGetGenresQuery } from "../../services/TMDB";
 import genreIcons from "../../assets/assets/genres";
 import { useDispatch, useSelector } from "react-redux";

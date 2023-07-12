@@ -8,13 +8,11 @@ import {
 } from "@mui/material";
 import { Menu } from "@mui/icons-material";
 import { Sidebar, Search } from "..";
-import { useDispatch, useSelector } from "react-redux";
 import "../global.css";
 
 const NavBar = () => {
   const [mobileOpen, setmobileOpen] = useState(false);
   const isMobile = useMediaQuery("(max-width:600px)");
-  const dispatch = useDispatch();
 
   return (
     <>
