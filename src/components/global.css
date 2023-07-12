@@ -1,3 +1,20 @@
+.root {
+    display: flex;
+    height: 100%;
+}
+
+.toolkit {
+    height: 70px;
+    z-index: 100;
+}
+
+.content {
+    width: 100%;
+    flex-grow: 1;
+    padding: 2em;
+    /* width: 100%; */
+}
+
 .movie {
     padding: 10px;
 }
@@ -11,3 +28,47 @@
     margin-bottom: 0;
     text-align: center;
 }
+
+.movies--box {
+    align-content: center;
+}
+
+/* FeaturedMovie Component */
+.featured--movie--container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    height: 490px;
+    text-decoration: none;
+}
+
+.featured--movie--card {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.featured--movie--cardmedia {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.575);
+    background-blend-mode: darken;
+}
+
+.featured--movie--cardcontent {
+    position: relative;
+    background-color: transparent;
+    color: #fff;
+    width: 40%;
+}
+
+@media (max-width: 600px) {
+    .featured--movie--cardcontent {
+        width: 100%;
+    }
+}
+
