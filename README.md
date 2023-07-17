@@ -1,6 +1,6 @@
 # Movie Browser App 🍿
 
-This movie browser application is built using :atom_symbol: as a practice project to enhance front-end development skills. It utilizes the TMDB (The Movie Database) API to retrieve movie data, providing a user-friendly interface for browsing and exploring a vast collection of movies.
+This movie browser application is built using React.js:atom_symbol:. It utilizes the TMDB (The Movie Database) API to retrieve movie data, providing a user-friendly interface for browsing and exploring a vast collection of movies.
 
 ## Features
 
